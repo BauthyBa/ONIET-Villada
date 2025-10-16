@@ -375,7 +375,16 @@ function App() {
 
       {summary ? (
         <section className="card summary">
-          <h2>Resumen del período</h2>
+          <div className="summary__header">
+            <h2>Resumen del período</h2>
+            <button
+              type="button"
+              className="button summary__download"
+              onClick={handleDownloadSummary}
+            >
+              Descargar PDF
+            </button>
+          </div>
           <div className="summary__grid">
             <div>
               <span className="summary__label">Período</span>
@@ -418,20 +427,9 @@ function App() {
       <ReportTable
         title="Informe de Cobertura"
         description="Ranking de compañías de seguro según el total cubierto."
-        columns={[
-          { key: 'compania', label: 'Compañía de Seguro' },
-          {
-            key: 'totalFacturado',
-            label: 'Total Facturado [$]',
-            render: (value) => currencyFormatter.format(value)
-          },
-          {
-            key: 'totalCobertura',
-            label: 'Total cobertura compañía seguro [$]',
-            render: (value) => currencyFormatter.format(value)
-          }
-        ]}
+        columns={COMPANY_REPORT_COLUMNS}
         rows={companyReport}
+        onDownload={handleDownloadCompanyReport}
         emptyMessage={
           loading
             ? 'Cargando información…'
@@ -444,15 +442,9 @@ function App() {
       <ReportTable
         title="Informe de Regiones"
         description="Ranking de regiones según la cantidad de servicios realizados."
-        columns={[
-          { key: 'region', label: 'Región' },
-          {
-            key: 'totalServicios',
-            label: 'Cantidad de servicios',
-            render: (value) => integerFormatter.format(value)
-          }
-        ]}
+        columns={REGION_REPORT_COLUMNS}
         rows={regionReport}
+        onDownload={handleDownloadRegionReport}
         emptyMessage={
           loading
             ? 'Cargando información…'
