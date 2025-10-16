@@ -1,0 +1,1442 @@
+﻿[
+  {
+    "NumeroRegistro": "1",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "1",
+    "CantidadServicios": "350",
+    "Region": "Centro",
+    "ValorPorServicio": "9597.38",
+    "PorcentajeCobertura": "92"
+  },
+  {
+    "NumeroRegistro": "2",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "1",
+    "CantidadServicios": "217",
+    "Region": "Norte",
+    "ValorPorServicio": "2199.51",
+    "PorcentajeCobertura": "72"
+  },
+  {
+    "NumeroRegistro": "3",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "1",
+    "CantidadServicios": "107",
+    "Region": "Centro",
+    "ValorPorServicio": "6484.7",
+    "PorcentajeCobertura": "82"
+  },
+  {
+    "NumeroRegistro": "4",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "1",
+    "CantidadServicios": "290",
+    "Region": "Centro",
+    "ValorPorServicio": "6090.73",
+    "PorcentajeCobertura": "62"
+  },
+  {
+    "NumeroRegistro": "5",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "2",
+    "CantidadServicios": "425",
+    "Region": "Norte",
+    "ValorPorServicio": "7578.54",
+    "PorcentajeCobertura": "58"
+  },
+  {
+    "NumeroRegistro": "6",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "2",
+    "CantidadServicios": "156",
+    "Region": "Centro",
+    "ValorPorServicio": "6664.17",
+    "PorcentajeCobertura": "59"
+  },
+  {
+    "NumeroRegistro": "7",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "2",
+    "CantidadServicios": "465",
+    "Region": "Sur",
+    "ValorPorServicio": "2174.3",
+    "PorcentajeCobertura": "88"
+  },
+  {
+    "NumeroRegistro": "8",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "2",
+    "CantidadServicios": "314",
+    "Region": "Cuyo",
+    "ValorPorServicio": "3706.79",
+    "PorcentajeCobertura": "80"
+  },
+  {
+    "NumeroRegistro": "9",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "3",
+    "CantidadServicios": "291",
+    "Region": "Norte",
+    "ValorPorServicio": "7566.25",
+    "PorcentajeCobertura": "70"
+  },
+  {
+    "NumeroRegistro": "10",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "3",
+    "CantidadServicios": "293",
+    "Region": "Norte",
+    "ValorPorServicio": "2155.37",
+    "PorcentajeCobertura": "80"
+  },
+  {
+    "NumeroRegistro": "11",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "3",
+    "CantidadServicios": "415",
+    "Region": "Sur",
+    "ValorPorServicio": "2912.39",
+    "PorcentajeCobertura": "98"
+  },
+  {
+    "NumeroRegistro": "12",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "3",
+    "CantidadServicios": "247",
+    "Region": "Centro",
+    "ValorPorServicio": "8638.58",
+    "PorcentajeCobertura": "81"
+  },
+  {
+    "NumeroRegistro": "13",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "4",
+    "CantidadServicios": "88",
+    "Region": "Norte",
+    "ValorPorServicio": "2094.6",
+    "PorcentajeCobertura": "78"
+  },
+  {
+    "NumeroRegistro": "14",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "4",
+    "CantidadServicios": "296",
+    "Region": "Cuyo",
+    "ValorPorServicio": "7850.86",
+    "PorcentajeCobertura": "73"
+  },
+  {
+    "NumeroRegistro": "15",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "4",
+    "CantidadServicios": "83",
+    "Region": "Cuyo",
+    "ValorPorServicio": "4527.69",
+    "PorcentajeCobertura": "64"
+  },
+  {
+    "NumeroRegistro": "16",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "4",
+    "CantidadServicios": "340",
+    "Region": "Sur",
+    "ValorPorServicio": "5331.83",
+    "PorcentajeCobertura": "58"
+  },
+  {
+    "NumeroRegistro": "17",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "5",
+    "CantidadServicios": "111",
+    "Region": "Norte",
+    "ValorPorServicio": "2832.45",
+    "PorcentajeCobertura": "94"
+  },
+  {
+    "NumeroRegistro": "18",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "5",
+    "CantidadServicios": "104",
+    "Region": "Centro",
+    "ValorPorServicio": "8686.0",
+    "PorcentajeCobertura": "63"
+  },
+  {
+    "NumeroRegistro": "19",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "5",
+    "CantidadServicios": "238",
+    "Region": "Norte",
+    "ValorPorServicio": "9894.09",
+    "PorcentajeCobertura": "58"
+  },
+  {
+    "NumeroRegistro": "20",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "5",
+    "CantidadServicios": "225",
+    "Region": "Sur",
+    "ValorPorServicio": "3508.05",
+    "PorcentajeCobertura": "65"
+  },
+  {
+    "NumeroRegistro": "21",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "6",
+    "CantidadServicios": "411",
+    "Region": "Norte",
+    "ValorPorServicio": "8229.12",
+    "PorcentajeCobertura": "85"
+  },
+  {
+    "NumeroRegistro": "22",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "6",
+    "CantidadServicios": "273",
+    "Region": "Sur",
+    "ValorPorServicio": "4131.96",
+    "PorcentajeCobertura": "51"
+  },
+  {
+    "NumeroRegistro": "23",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "6",
+    "CantidadServicios": "437",
+    "Region": "Norte",
+    "ValorPorServicio": "8014.85",
+    "PorcentajeCobertura": "53"
+  },
+  {
+    "NumeroRegistro": "24",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "6",
+    "CantidadServicios": "152",
+    "Region": "Centro",
+    "ValorPorServicio": "7885.9",
+    "PorcentajeCobertura": "73"
+  },
+  {
+    "NumeroRegistro": "25",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "7",
+    "CantidadServicios": "174",
+    "Region": "Centro",
+    "ValorPorServicio": "3709.41",
+    "PorcentajeCobertura": "57"
+  },
+  {
+    "NumeroRegistro": "26",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "7",
+    "CantidadServicios": "372",
+    "Region": "Centro",
+    "ValorPorServicio": "2687.23",
+    "PorcentajeCobertura": "79"
+  },
+  {
+    "NumeroRegistro": "27",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "7",
+    "CantidadServicios": "244",
+    "Region": "Centro",
+    "ValorPorServicio": "5767.23",
+    "PorcentajeCobertura": "94"
+  },
+  {
+    "NumeroRegistro": "28",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "7",
+    "CantidadServicios": "149",
+    "Region": "Cuyo",
+    "ValorPorServicio": "7680.0",
+    "PorcentajeCobertura": "78"
+  },
+  {
+    "NumeroRegistro": "29",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "8",
+    "CantidadServicios": "474",
+    "Region": "Cuyo",
+    "ValorPorServicio": "3276.86",
+    "PorcentajeCobertura": "73"
+  },
+  {
+    "NumeroRegistro": "30",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "8",
+    "CantidadServicios": "322",
+    "Region": "Norte",
+    "ValorPorServicio": "6560.51",
+    "PorcentajeCobertura": "60"
+  },
+  {
+    "NumeroRegistro": "31",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "8",
+    "CantidadServicios": "488",
+    "Region": "Cuyo",
+    "ValorPorServicio": "3498.49",
+    "PorcentajeCobertura": "82"
+  },
+  {
+    "NumeroRegistro": "32",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "8",
+    "CantidadServicios": "239",
+    "Region": "Centro",
+    "ValorPorServicio": "2939.58",
+    "PorcentajeCobertura": "99"
+  },
+  {
+    "NumeroRegistro": "33",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "9",
+    "CantidadServicios": "66",
+    "Region": "Sur",
+    "ValorPorServicio": "5455.33",
+    "PorcentajeCobertura": "96"
+  },
+  {
+    "NumeroRegistro": "34",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "9",
+    "CantidadServicios": "492",
+    "Region": "Centro",
+    "ValorPorServicio": "3059.05",
+    "PorcentajeCobertura": "52"
+  },
+  {
+    "NumeroRegistro": "35",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "9",
+    "CantidadServicios": "89",
+    "Region": "Norte",
+    "ValorPorServicio": "2430.42",
+    "PorcentajeCobertura": "89"
+  },
+  {
+    "NumeroRegistro": "36",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "9",
+    "CantidadServicios": "342",
+    "Region": "Sur",
+    "ValorPorServicio": "8395.71",
+    "PorcentajeCobertura": "61"
+  },
+  {
+    "NumeroRegistro": "37",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "10",
+    "CantidadServicios": "82",
+    "Region": "Cuyo",
+    "ValorPorServicio": "8768.16",
+    "PorcentajeCobertura": "100"
+  },
+  {
+    "NumeroRegistro": "38",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "10",
+    "CantidadServicios": "282",
+    "Region": "Centro",
+    "ValorPorServicio": "3987.59",
+    "PorcentajeCobertura": "86"
+  },
+  {
+    "NumeroRegistro": "39",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "10",
+    "CantidadServicios": "90",
+    "Region": "Norte",
+    "ValorPorServicio": "3325.73",
+    "PorcentajeCobertura": "83"
+  },
+  {
+    "NumeroRegistro": "40",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "10",
+    "CantidadServicios": "383",
+    "Region": "Sur",
+    "ValorPorServicio": "8996.2",
+    "PorcentajeCobertura": "53"
+  },
+  {
+    "NumeroRegistro": "41",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "11",
+    "CantidadServicios": "152",
+    "Region": "Sur",
+    "ValorPorServicio": "7672.18",
+    "PorcentajeCobertura": "86"
+  },
+  {
+    "NumeroRegistro": "42",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "11",
+    "CantidadServicios": "110",
+    "Region": "Cuyo",
+    "ValorPorServicio": "8151.52",
+    "PorcentajeCobertura": "55"
+  },
+  {
+    "NumeroRegistro": "43",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "11",
+    "CantidadServicios": "183",
+    "Region": "Norte",
+    "ValorPorServicio": "5054.51",
+    "PorcentajeCobertura": "67"
+  },
+  {
+    "NumeroRegistro": "44",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "11",
+    "CantidadServicios": "193",
+    "Region": "Norte",
+    "ValorPorServicio": "6063.74",
+    "PorcentajeCobertura": "99"
+  },
+  {
+    "NumeroRegistro": "45",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2023",
+    "Mes": "12",
+    "CantidadServicios": "314",
+    "Region": "Centro",
+    "ValorPorServicio": "4205.34",
+    "PorcentajeCobertura": "99"
+  },
+  {
+    "NumeroRegistro": "46",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2023",
+    "Mes": "12",
+    "CantidadServicios": "452",
+    "Region": "Sur",
+    "ValorPorServicio": "2852.84",
+    "PorcentajeCobertura": "61"
+  },
+  {
+    "NumeroRegistro": "47",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2023",
+    "Mes": "12",
+    "CantidadServicios": "136",
+    "Region": "Sur",
+    "ValorPorServicio": "6177.54",
+    "PorcentajeCobertura": "83"
+  },
+  {
+    "NumeroRegistro": "48",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2023",
+    "Mes": "12",
+    "CantidadServicios": "490",
+    "Region": "Cuyo",
+    "ValorPorServicio": "6620.88",
+    "PorcentajeCobertura": "65"
+  },
+  {
+    "NumeroRegistro": "49",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "1",
+    "CantidadServicios": "291",
+    "Region": "Centro",
+    "ValorPorServicio": "7057.8",
+    "PorcentajeCobertura": "68"
+  },
+  {
+    "NumeroRegistro": "50",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "1",
+    "CantidadServicios": "106",
+    "Region": "Sur",
+    "ValorPorServicio": "2118.82",
+    "PorcentajeCobertura": "71"
+  },
+  {
+    "NumeroRegistro": "51",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "1",
+    "CantidadServicios": "289",
+    "Region": "Cuyo",
+    "ValorPorServicio": "2193.62",
+    "PorcentajeCobertura": "71"
+  },
+  {
+    "NumeroRegistro": "52",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "1",
+    "CantidadServicios": "64",
+    "Region": "Centro",
+    "ValorPorServicio": "7622.66",
+    "PorcentajeCobertura": "60"
+  },
+  {
+    "NumeroRegistro": "53",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "2",
+    "CantidadServicios": "494",
+    "Region": "Sur",
+    "ValorPorServicio": "5071.08",
+    "PorcentajeCobertura": "83"
+  },
+  {
+    "NumeroRegistro": "54",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "2",
+    "CantidadServicios": "369",
+    "Region": "Cuyo",
+    "ValorPorServicio": "3840.93",
+    "PorcentajeCobertura": "80"
+  },
+  {
+    "NumeroRegistro": "55",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "2",
+    "CantidadServicios": "344",
+    "Region": "Cuyo",
+    "ValorPorServicio": "3648.19",
+    "PorcentajeCobertura": "51"
+  },
+  {
+    "NumeroRegistro": "56",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "2",
+    "CantidadServicios": "134",
+    "Region": "Centro",
+    "ValorPorServicio": "8702.1",
+    "PorcentajeCobertura": "82"
+  },
+  {
+    "NumeroRegistro": "57",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "3",
+    "CantidadServicios": "438",
+    "Region": "Cuyo",
+    "ValorPorServicio": "5952.25",
+    "PorcentajeCobertura": "72"
+  },
+  {
+    "NumeroRegistro": "58",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "3",
+    "CantidadServicios": "291",
+    "Region": "Cuyo",
+    "ValorPorServicio": "8122.22",
+    "PorcentajeCobertura": "75"
+  },
+  {
+    "NumeroRegistro": "59",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "3",
+    "CantidadServicios": "230",
+    "Region": "Cuyo",
+    "ValorPorServicio": "2166.18",
+    "PorcentajeCobertura": "71"
+  },
+  {
+    "NumeroRegistro": "60",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "3",
+    "CantidadServicios": "189",
+    "Region": "Sur",
+    "ValorPorServicio": "7112.88",
+    "PorcentajeCobertura": "73"
+  },
+  {
+    "NumeroRegistro": "61",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "4",
+    "CantidadServicios": "364",
+    "Region": "Norte",
+    "ValorPorServicio": "8036.08",
+    "PorcentajeCobertura": "75"
+  },
+  {
+    "NumeroRegistro": "62",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "4",
+    "CantidadServicios": "212",
+    "Region": "Centro",
+    "ValorPorServicio": "4125.49",
+    "PorcentajeCobertura": "68"
+  },
+  {
+    "NumeroRegistro": "63",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "4",
+    "CantidadServicios": "106",
+    "Region": "Norte",
+    "ValorPorServicio": "3954.38",
+    "PorcentajeCobertura": "86"
+  },
+  {
+    "NumeroRegistro": "64",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "4",
+    "CantidadServicios": "330",
+    "Region": "Sur",
+    "ValorPorServicio": "5927.55",
+    "PorcentajeCobertura": "72"
+  },
+  {
+    "NumeroRegistro": "65",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "5",
+    "CantidadServicios": "167",
+    "Region": "Sur",
+    "ValorPorServicio": "8488.44",
+    "PorcentajeCobertura": "53"
+  },
+  {
+    "NumeroRegistro": "66",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "5",
+    "CantidadServicios": "103",
+    "Region": "Centro",
+    "ValorPorServicio": "8810.35",
+    "PorcentajeCobertura": "99"
+  },
+  {
+    "NumeroRegistro": "67",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "5",
+    "CantidadServicios": "421",
+    "Region": "Norte",
+    "ValorPorServicio": "6682.06",
+    "PorcentajeCobertura": "68"
+  },
+  {
+    "NumeroRegistro": "68",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "5",
+    "CantidadServicios": "367",
+    "Region": "Cuyo",
+    "ValorPorServicio": "5934.23",
+    "PorcentajeCobertura": "70"
+  },
+  {
+    "NumeroRegistro": "69",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "6",
+    "CantidadServicios": "279",
+    "Region": "Sur",
+    "ValorPorServicio": "5419.69",
+    "PorcentajeCobertura": "74"
+  },
+  {
+    "NumeroRegistro": "70",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "6",
+    "CantidadServicios": "126",
+    "Region": "Sur",
+    "ValorPorServicio": "9243.82",
+    "PorcentajeCobertura": "76"
+  },
+  {
+    "NumeroRegistro": "71",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "6",
+    "CantidadServicios": "73",
+    "Region": "Norte",
+    "ValorPorServicio": "5462.33",
+    "PorcentajeCobertura": "88"
+  },
+  {
+    "NumeroRegistro": "72",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "6",
+    "CantidadServicios": "329",
+    "Region": "Norte",
+    "ValorPorServicio": "5612.0",
+    "PorcentajeCobertura": "85"
+  },
+  {
+    "NumeroRegistro": "73",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "7",
+    "CantidadServicios": "273",
+    "Region": "Centro",
+    "ValorPorServicio": "5402.81",
+    "PorcentajeCobertura": "85"
+  },
+  {
+    "NumeroRegistro": "74",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "7",
+    "CantidadServicios": "416",
+    "Region": "Sur",
+    "ValorPorServicio": "4630.04",
+    "PorcentajeCobertura": "83"
+  },
+  {
+    "NumeroRegistro": "75",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "7",
+    "CantidadServicios": "139",
+    "Region": "Norte",
+    "ValorPorServicio": "5348.02",
+    "PorcentajeCobertura": "79"
+  },
+  {
+    "NumeroRegistro": "76",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "7",
+    "CantidadServicios": "367",
+    "Region": "Centro",
+    "ValorPorServicio": "9379.22",
+    "PorcentajeCobertura": "52"
+  },
+  {
+    "NumeroRegistro": "77",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "8",
+    "CantidadServicios": "447",
+    "Region": "Cuyo",
+    "ValorPorServicio": "5977.24",
+    "PorcentajeCobertura": "68"
+  },
+  {
+    "NumeroRegistro": "78",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "8",
+    "CantidadServicios": "378",
+    "Region": "Norte",
+    "ValorPorServicio": "2149.94",
+    "PorcentajeCobertura": "55"
+  },
+  {
+    "NumeroRegistro": "79",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "8",
+    "CantidadServicios": "100",
+    "Region": "Cuyo",
+    "ValorPorServicio": "5058.8",
+    "PorcentajeCobertura": "87"
+  },
+  {
+    "NumeroRegistro": "80",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "8",
+    "CantidadServicios": "122",
+    "Region": "Centro",
+    "ValorPorServicio": "8075.51",
+    "PorcentajeCobertura": "73"
+  },
+  {
+    "NumeroRegistro": "81",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "9",
+    "CantidadServicios": "127",
+    "Region": "Norte",
+    "ValorPorServicio": "3280.56",
+    "PorcentajeCobertura": "95"
+  },
+  {
+    "NumeroRegistro": "82",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "9",
+    "CantidadServicios": "295",
+    "Region": "Centro",
+    "ValorPorServicio": "3503.54",
+    "PorcentajeCobertura": "55"
+  },
+  {
+    "NumeroRegistro": "83",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "9",
+    "CantidadServicios": "394",
+    "Region": "Sur",
+    "ValorPorServicio": "2395.43",
+    "PorcentajeCobertura": "98"
+  },
+  {
+    "NumeroRegistro": "84",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "9",
+    "CantidadServicios": "400",
+    "Region": "Centro",
+    "ValorPorServicio": "3041.26",
+    "PorcentajeCobertura": "87"
+  },
+  {
+    "NumeroRegistro": "85",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "10",
+    "CantidadServicios": "165",
+    "Region": "Cuyo",
+    "ValorPorServicio": "6836.47",
+    "PorcentajeCobertura": "94"
+  },
+  {
+    "NumeroRegistro": "86",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "10",
+    "CantidadServicios": "264",
+    "Region": "Cuyo",
+    "ValorPorServicio": "2458.3",
+    "PorcentajeCobertura": "99"
+  },
+  {
+    "NumeroRegistro": "87",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "10",
+    "CantidadServicios": "244",
+    "Region": "Cuyo",
+    "ValorPorServicio": "2809.94",
+    "PorcentajeCobertura": "60"
+  },
+  {
+    "NumeroRegistro": "88",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "10",
+    "CantidadServicios": "219",
+    "Region": "Norte",
+    "ValorPorServicio": "7902.29",
+    "PorcentajeCobertura": "98"
+  },
+  {
+    "NumeroRegistro": "89",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "11",
+    "CantidadServicios": "225",
+    "Region": "Sur",
+    "ValorPorServicio": "2735.59",
+    "PorcentajeCobertura": "80"
+  },
+  {
+    "NumeroRegistro": "90",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "11",
+    "CantidadServicios": "436",
+    "Region": "Norte",
+    "ValorPorServicio": "8360.27",
+    "PorcentajeCobertura": "51"
+  },
+  {
+    "NumeroRegistro": "91",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "11",
+    "CantidadServicios": "479",
+    "Region": "Sur",
+    "ValorPorServicio": "2769.86",
+    "PorcentajeCobertura": "69"
+  },
+  {
+    "NumeroRegistro": "92",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "11",
+    "CantidadServicios": "237",
+    "Region": "Centro",
+    "ValorPorServicio": "7866.4",
+    "PorcentajeCobertura": "81"
+  },
+  {
+    "NumeroRegistro": "93",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2024",
+    "Mes": "12",
+    "CantidadServicios": "277",
+    "Region": "Centro",
+    "ValorPorServicio": "7215.14",
+    "PorcentajeCobertura": "91"
+  },
+  {
+    "NumeroRegistro": "94",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2024",
+    "Mes": "12",
+    "CantidadServicios": "170",
+    "Region": "Sur",
+    "ValorPorServicio": "4169.49",
+    "PorcentajeCobertura": "75"
+  },
+  {
+    "NumeroRegistro": "95",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2024",
+    "Mes": "12",
+    "CantidadServicios": "300",
+    "Region": "Cuyo",
+    "ValorPorServicio": "7558.35",
+    "PorcentajeCobertura": "55"
+  },
+  {
+    "NumeroRegistro": "96",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2024",
+    "Mes": "12",
+    "CantidadServicios": "486",
+    "Region": "Cuyo",
+    "ValorPorServicio": "4320.75",
+    "PorcentajeCobertura": "55"
+  },
+  {
+    "NumeroRegistro": "97",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "1",
+    "CantidadServicios": "57",
+    "Region": "Centro",
+    "ValorPorServicio": "8478.55",
+    "PorcentajeCobertura": "67"
+  },
+  {
+    "NumeroRegistro": "98",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "1",
+    "CantidadServicios": "237",
+    "Region": "Centro",
+    "ValorPorServicio": "3831.99",
+    "PorcentajeCobertura": "69"
+  },
+  {
+    "NumeroRegistro": "99",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "1",
+    "CantidadServicios": "371",
+    "Region": "Centro",
+    "ValorPorServicio": "9181.14",
+    "PorcentajeCobertura": "61"
+  },
+  {
+    "NumeroRegistro": "100",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "1",
+    "CantidadServicios": "116",
+    "Region": "Norte",
+    "ValorPorServicio": "6242.42",
+    "PorcentajeCobertura": "73"
+  },
+  {
+    "NumeroRegistro": "101",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "2",
+    "CantidadServicios": "392",
+    "Region": "Norte",
+    "ValorPorServicio": "4205.84",
+    "PorcentajeCobertura": "64"
+  },
+  {
+    "NumeroRegistro": "102",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "2",
+    "CantidadServicios": "244",
+    "Region": "Sur",
+    "ValorPorServicio": "8261.68",
+    "PorcentajeCobertura": "58"
+  },
+  {
+    "NumeroRegistro": "103",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "2",
+    "CantidadServicios": "355",
+    "Region": "Centro",
+    "ValorPorServicio": "2147.29",
+    "PorcentajeCobertura": "58"
+  },
+  {
+    "NumeroRegistro": "104",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "2",
+    "CantidadServicios": "111",
+    "Region": "Sur",
+    "ValorPorServicio": "7410.01",
+    "PorcentajeCobertura": "93"
+  },
+  {
+    "NumeroRegistro": "105",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "3",
+    "CantidadServicios": "451",
+    "Region": "Norte",
+    "ValorPorServicio": "5337.16",
+    "PorcentajeCobertura": "80"
+  },
+  {
+    "NumeroRegistro": "106",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "3",
+    "CantidadServicios": "146",
+    "Region": "Sur",
+    "ValorPorServicio": "5935.19",
+    "PorcentajeCobertura": "84"
+  },
+  {
+    "NumeroRegistro": "107",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "3",
+    "CantidadServicios": "50",
+    "Region": "Norte",
+    "ValorPorServicio": "7870.43",
+    "PorcentajeCobertura": "52"
+  },
+  {
+    "NumeroRegistro": "108",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "3",
+    "CantidadServicios": "245",
+    "Region": "Cuyo",
+    "ValorPorServicio": "6000.63",
+    "PorcentajeCobertura": "57"
+  },
+  {
+    "NumeroRegistro": "109",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "4",
+    "CantidadServicios": "216",
+    "Region": "Cuyo",
+    "ValorPorServicio": "2580.68",
+    "PorcentajeCobertura": "53"
+  },
+  {
+    "NumeroRegistro": "110",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "4",
+    "CantidadServicios": "255",
+    "Region": "Centro",
+    "ValorPorServicio": "5089.55",
+    "PorcentajeCobertura": "69"
+  },
+  {
+    "NumeroRegistro": "111",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "4",
+    "CantidadServicios": "228",
+    "Region": "Cuyo",
+    "ValorPorServicio": "7831.99",
+    "PorcentajeCobertura": "53"
+  },
+  {
+    "NumeroRegistro": "112",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "4",
+    "CantidadServicios": "499",
+    "Region": "Centro",
+    "ValorPorServicio": "7866.68",
+    "PorcentajeCobertura": "84"
+  },
+  {
+    "NumeroRegistro": "113",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "5",
+    "CantidadServicios": "338",
+    "Region": "Centro",
+    "ValorPorServicio": "6738.66",
+    "PorcentajeCobertura": "64"
+  },
+  {
+    "NumeroRegistro": "114",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "5",
+    "CantidadServicios": "70",
+    "Region": "Norte",
+    "ValorPorServicio": "6748.32",
+    "PorcentajeCobertura": "77"
+  },
+  {
+    "NumeroRegistro": "115",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "5",
+    "CantidadServicios": "485",
+    "Region": "Sur",
+    "ValorPorServicio": "9998.92",
+    "PorcentajeCobertura": "51"
+  },
+  {
+    "NumeroRegistro": "116",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "5",
+    "CantidadServicios": "174",
+    "Region": "Sur",
+    "ValorPorServicio": "5802.26",
+    "PorcentajeCobertura": "86"
+  },
+  {
+    "NumeroRegistro": "117",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "6",
+    "CantidadServicios": "445",
+    "Region": "Centro",
+    "ValorPorServicio": "2930.11",
+    "PorcentajeCobertura": "57"
+  },
+  {
+    "NumeroRegistro": "118",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "6",
+    "CantidadServicios": "486",
+    "Region": "Sur",
+    "ValorPorServicio": "4995.6",
+    "PorcentajeCobertura": "59"
+  },
+  {
+    "NumeroRegistro": "119",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "6",
+    "CantidadServicios": "253",
+    "Region": "Cuyo",
+    "ValorPorServicio": "7633.57",
+    "PorcentajeCobertura": "82"
+  },
+  {
+    "NumeroRegistro": "120",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "6",
+    "CantidadServicios": "92",
+    "Region": "Norte",
+    "ValorPorServicio": "2403.89",
+    "PorcentajeCobertura": "90"
+  },
+  {
+    "NumeroRegistro": "121",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "7",
+    "CantidadServicios": "442",
+    "Region": "Norte",
+    "ValorPorServicio": "6039.95",
+    "PorcentajeCobertura": "87"
+  },
+  {
+    "NumeroRegistro": "122",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "7",
+    "CantidadServicios": "399",
+    "Region": "Sur",
+    "ValorPorServicio": "6292.03",
+    "PorcentajeCobertura": "100"
+  },
+  {
+    "NumeroRegistro": "123",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "7",
+    "CantidadServicios": "71",
+    "Region": "Sur",
+    "ValorPorServicio": "5570.37",
+    "PorcentajeCobertura": "51"
+  },
+  {
+    "NumeroRegistro": "124",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "7",
+    "CantidadServicios": "265",
+    "Region": "Centro",
+    "ValorPorServicio": "8849.68",
+    "PorcentajeCobertura": "74"
+  },
+  {
+    "NumeroRegistro": "125",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "8",
+    "CantidadServicios": "284",
+    "Region": "Norte",
+    "ValorPorServicio": "9549.88",
+    "PorcentajeCobertura": "92"
+  },
+  {
+    "NumeroRegistro": "126",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "8",
+    "CantidadServicios": "397",
+    "Region": "Sur",
+    "ValorPorServicio": "3258.41",
+    "PorcentajeCobertura": "98"
+  },
+  {
+    "NumeroRegistro": "127",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "8",
+    "CantidadServicios": "80",
+    "Region": "Sur",
+    "ValorPorServicio": "2632.26",
+    "PorcentajeCobertura": "59"
+  },
+  {
+    "NumeroRegistro": "128",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "8",
+    "CantidadServicios": "279",
+    "Region": "Sur",
+    "ValorPorServicio": "6002.88",
+    "PorcentajeCobertura": "77"
+  },
+  {
+    "NumeroRegistro": "129",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "9",
+    "CantidadServicios": "168",
+    "Region": "Norte",
+    "ValorPorServicio": "9372.08",
+    "PorcentajeCobertura": "96"
+  },
+  {
+    "NumeroRegistro": "130",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "9",
+    "CantidadServicios": "60",
+    "Region": "Cuyo",
+    "ValorPorServicio": "4142.77",
+    "PorcentajeCobertura": "72"
+  },
+  {
+    "NumeroRegistro": "131",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "9",
+    "CantidadServicios": "67",
+    "Region": "Cuyo",
+    "ValorPorServicio": "6524.38",
+    "PorcentajeCobertura": "63"
+  },
+  {
+    "NumeroRegistro": "132",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "9",
+    "CantidadServicios": "412",
+    "Region": "Centro",
+    "ValorPorServicio": "9104.72",
+    "PorcentajeCobertura": "88"
+  },
+  {
+    "NumeroRegistro": "133",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "10",
+    "CantidadServicios": "120",
+    "Region": "Norte",
+    "ValorPorServicio": "4453.58",
+    "PorcentajeCobertura": "60"
+  },
+  {
+    "NumeroRegistro": "134",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "10",
+    "CantidadServicios": "479",
+    "Region": "Centro",
+    "ValorPorServicio": "6249.47",
+    "PorcentajeCobertura": "81"
+  },
+  {
+    "NumeroRegistro": "135",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "10",
+    "CantidadServicios": "460",
+    "Region": "Sur",
+    "ValorPorServicio": "6847.22",
+    "PorcentajeCobertura": "66"
+  },
+  {
+    "NumeroRegistro": "136",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "10",
+    "CantidadServicios": "316",
+    "Region": "Centro",
+    "ValorPorServicio": "8935.29",
+    "PorcentajeCobertura": "52"
+  },
+  {
+    "NumeroRegistro": "137",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "11",
+    "CantidadServicios": "355",
+    "Region": "Sur",
+    "ValorPorServicio": "9435.95",
+    "PorcentajeCobertura": "79"
+  },
+  {
+    "NumeroRegistro": "138",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "11",
+    "CantidadServicios": "333",
+    "Region": "Sur",
+    "ValorPorServicio": "4397.44",
+    "PorcentajeCobertura": "95"
+  },
+  {
+    "NumeroRegistro": "139",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "11",
+    "CantidadServicios": "378",
+    "Region": "Sur",
+    "ValorPorServicio": "8008.15",
+    "PorcentajeCobertura": "62"
+  },
+  {
+    "NumeroRegistro": "140",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "11",
+    "CantidadServicios": "87",
+    "Region": "Sur",
+    "ValorPorServicio": "8671.46",
+    "PorcentajeCobertura": "89"
+  },
+  {
+    "NumeroRegistro": "141",
+    "CompaniaSeguro": "SeguroAndes",
+    "Anio": "2025",
+    "Mes": "12",
+    "CantidadServicios": "200",
+    "Region": "Norte",
+    "ValorPorServicio": "3295.56",
+    "PorcentajeCobertura": "100"
+  },
+  {
+    "NumeroRegistro": "142",
+    "CompaniaSeguro": "ProtecSalud",
+    "Anio": "2025",
+    "Mes": "12",
+    "CantidadServicios": "67",
+    "Region": "Norte",
+    "ValorPorServicio": "4729.05",
+    "PorcentajeCobertura": "94"
+  },
+  {
+    "NumeroRegistro": "143",
+    "CompaniaSeguro": "VidaFuturo",
+    "Anio": "2025",
+    "Mes": "12",
+    "CantidadServicios": "481",
+    "Region": "Norte",
+    "ValorPorServicio": "6724.49",
+    "PorcentajeCobertura": "75"
+  },
+  {
+    "NumeroRegistro": "144",
+    "CompaniaSeguro": "SegurPlus",
+    "Anio": "2025",
+    "Mes": "12",
+    "CantidadServicios": "475",
+    "Region": "Centro",
+    "ValorPorServicio": "5727.51",
+    "PorcentajeCobertura": "82"
+  }
+]
