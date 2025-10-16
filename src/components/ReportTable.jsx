@@ -1,8 +1,27 @@
-const ReportTable = ({ title, description, columns, rows, emptyMessage }) => (
+const ReportTable = ({
+  title,
+  description,
+  columns,
+  rows,
+  emptyMessage,
+  onDownload
+}) => (
   <section className="report">
     <header className="report__header">
-      <h2>{title}</h2>
-      {description ? <p className="report__description">{description}</p> : null}
+      <div className="report__header-text">
+        <h2>{title}</h2>
+        {description ? <p className="report__description">{description}</p> : null}
+      </div>
+      {onDownload ? (
+        <button
+          type="button"
+          className="button report__download"
+          onClick={onDownload}
+          disabled={!rows.length}
+        >
+          Descargar PDF
+        </button>
+      ) : null}
     </header>
     <div className="report__table-wrapper">
       <table>

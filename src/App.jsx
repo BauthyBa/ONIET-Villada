@@ -1,4 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
+import jsPDF from 'jspdf';
+import autoTable from 'jspdf-autotable';
 import ReportTable from './components/ReportTable.jsx';
 import { useServiceData } from './hooks/useServiceData.js';
 
@@ -27,6 +29,123 @@ const SOURCE_OPTIONS = [
   { id: 'json', label: 'Archivo JSON (ejemplo)' },
   { id: 'upload', label: 'Archivo local' }
 ];
+
+const COMPANY_REPORT_COLUMNS = [
+  { key: 'compania', label: 'Compañía de Seguro' },
+  {
+    key: 'totalFacturado',
+    label: 'Total Facturado [$]',
+    render: (value) => currencyFormatter.format(value)
+  },
+  {
+    key: 'totalCobertura',
+    label: 'Total cobertura compañía seguro [$]',
+    render: (value) => currencyFormatter.format(value)
+  }
+];
+
+const REGION_REPORT_COLUMNS = [
+  { key: 'region', label: 'Región' },
+  {
+    key: 'totalServicios',
+    label: 'Cantidad de servicios',
+    render: (value) => integerFormatter.format(value)
+  }
+];
+
+const getCellDisplayValue = (column, row) => {
+  const rawValue = row[column.key];
+
+  if (typeof column.render === 'function') {
+    const rendered = column.render(rawValue, row);
+
+    if (rendered === null || rendered === undefined) {
+      return '';
+    }
+
+    if (typeof rendered === 'string' || typeof rendered === 'number') {
+      return rendered;
+    }
+
+    if (Array.isArray(rendered)) {
+      return rendered
+        .map((item) => (item === null || item === undefined ? '' : String(item)))
+        .join(' ');
+    }
+
+    if (typeof rendered === 'object' && rendered !== null && 'props' in rendered) {
+      const children = rendered.props?.children;
+      if (Array.isArray(children)) {
+        return children
+          .map((child) => (child === null || child === undefined ? '' : String(child)))
+          .join(' ');
+      }
+      return children ?? '';
+    }
+
+    return String(rendered);
+  }
+
+  if (rawValue === null || rawValue === undefined) {
+    return '';
+  }
+
+  if (typeof rawValue === 'string' || typeof rawValue === 'number') {
+    return rawValue;
+  }
+
+  return String(rawValue);
+};
+
+const exportTableToPdf = (title, columns, rows, fileName) => {
+  if (!rows.length) {
+    return;
+  }
+
+  const doc = new jsPDF();
+  doc.setFontSize(16);
+  doc.text(title, 14, 20);
+
+  autoTable(doc, {
+    startY: 32,
+    head: [columns.map((column) => column.label)],
+    body: rows.map((row) =>
+      columns.map((column) => getCellDisplayValue(column, row))
+    ),
+    styles: {
+      fontSize: 10
+    },
+    headStyles: {
+      fillColor: [0, 0, 128]
+    }
+  });
+
+  doc.save(fileName);
+};
+
+const exportSummaryToPdf = (summary) => {
+  const doc = new jsPDF();
+  doc.setFontSize(16);
+  doc.text('Resumen del período', 14, 20);
+  doc.setFontSize(12);
+
+  const lines = [
+    `Período: ${summary.periodo}`,
+    `Servicios totales: ${integerFormatter.format(summary.totalServicios)}`,
+    `Facturación acumulada: ${currencyFormatter.format(summary.totalFacturado)}`,
+    `Cobertura aseguradoras: ${currencyFormatter.format(summary.totalCobertura)}`,
+    `Compañías participantes: ${integerFormatter.format(summary.totalCompanias)}`,
+    `Regiones atendidas: ${integerFormatter.format(summary.totalRegiones)}`
+  ];
+
+  let offsetY = 40;
+  lines.forEach((line) => {
+    doc.text(line, 14, offsetY);
+    offsetY += 18;
+  });
+
+  doc.save('resumen-del-periodo.pdf');
+};
 
 const periodsFromYears = (years) => {
   if (!years.length) return 'Sin datos';
@@ -128,6 +247,31 @@ function App() {
   const summary = useMemo(() => buildSummary(records), [records]);
   const companyReport = useMemo(() => buildCompanyReport(records), [records]);
   const regionReport = useMemo(() => buildRegionReport(records), [records]);
+
+  const handleDownloadSummary = useCallback(() => {
+    if (!summary) {
+      return;
+    }
+    exportSummaryToPdf(summary);
+  }, [summary]);
+
+  const handleDownloadCompanyReport = useCallback(() => {
+    exportTableToPdf(
+      'Informe de Cobertura',
+      COMPANY_REPORT_COLUMNS,
+      companyReport,
+      'informe-cobertura.pdf'
+    );
+  }, [companyReport]);
+
+  const handleDownloadRegionReport = useCallback(() => {
+    exportTableToPdf(
+      'Informe de Regiones',
+      REGION_REPORT_COLUMNS,
+      regionReport,
+      'informe-de-regiones.pdf'
+    );
+  }, [regionReport]);
 
   const handleSourceChange = (event) => {
     const value = event.target.value;
