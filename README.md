@@ -15,7 +15,6 @@ Los datos se cargan desde los archivos provistos por la consigna (`CSV` o `JSON`
 ## Puesta en marcha
 
 ```bash
-cd mecanica-argentina-dashboard
 npm install
 npm run dev
 ```
