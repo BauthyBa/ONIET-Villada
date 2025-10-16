@@ -22,6 +22,8 @@ npm run dev
 
 La aplicación quedará disponible en `http://localhost:5173/` por defecto. Utilice el selector de fuente de datos para alternar entre los archivos `CSV` y `JSON`.
 
+En la opción **Archivo local** puede cargar un archivo propio (`.csv` o `.json`) con la misma estructura de campos para generar los reportes dinámicamente.
+
 ### Scripts disponibles
 
 - `npm run dev`: inicia el servidor de desarrollo de Vite.

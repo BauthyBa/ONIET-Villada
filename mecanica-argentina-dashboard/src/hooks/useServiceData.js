@@ -1,10 +1,5 @@
 import { useEffect, useState } from 'react';
 
-const DATA_PATHS = {
-  csv: '/data/Datos-ONIET-2025---seguros-prestaciones.csv',
-  json: '/data/Datos-ONIET-2025---seguros-prestaciones.json'
-};
-
 const HEADERS = [
   'NumeroRegistro',
   'CompaniaSeguro',
@@ -92,49 +87,66 @@ export const useServiceData = (source) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const controller = new AbortController();
+    let isCancelled = false;
+    const controller = source?.type === 'url' ? new AbortController() : null;
 
     const loadData = async () => {
+      if (!source) {
+        setRecords([]);
+        setError(null);
+        setLoading(false);
+        return;
+      }
+
       setLoading(true);
       setError(null);
 
       try {
-        const path = DATA_PATHS[source];
-        if (!path) {
+        let rawRecords = [];
+
+        if (source.type === 'url') {
+          const response = await fetch(source.path, {
+            signal: controller?.signal
+          });
+          if (!response.ok) {
+            throw new Error('No se pudo descargar el archivo de datos.');
+          }
+          const text = await response.text();
+          rawRecords = source.format === 'csv' ? parseCsv(text) : parseJson(text);
+        } else if (source.type === 'file') {
+          const text = await source.file.text();
+          rawRecords = source.format === 'csv' ? parseCsv(text) : parseJson(text);
+        } else if (source.type === 'text') {
+          rawRecords =
+            source.format === 'csv'
+              ? parseCsv(source.content)
+              : parseJson(source.content);
+        } else {
           throw new Error('Fuente de datos desconocida.');
         }
 
-        const response = await fetch(path, { signal: controller.signal });
-        if (!response.ok) {
-          throw new Error('No se pudo descargar el archivo de datos.');
-        }
-
-        let rawRecords = [];
-        if (source === 'csv') {
-          const text = await response.text();
-          rawRecords = parseCsv(text);
-        } else {
-          const text = await response.text();
-          rawRecords = parseJson(text);
-        }
-
         const normalized = rawRecords.map(normalizeRecord);
-        setRecords(normalized);
+        if (!isCancelled) {
+          setRecords(normalized);
+        }
       } catch (fetchError) {
-        if (fetchError.name !== 'AbortError') {
+        if (fetchError.name !== 'AbortError' && !isCancelled) {
           console.error(fetchError);
           setError(fetchError.message ?? 'Ocurrió un error desconocido.');
           setRecords([]);
         }
       } finally {
-        setLoading(false);
+        if (!isCancelled) {
+          setLoading(false);
+        }
       }
     };
 
     loadData();
 
     return () => {
-      controller.abort();
+      isCancelled = true;
+      controller?.abort();
     };
   }, [source]);
 

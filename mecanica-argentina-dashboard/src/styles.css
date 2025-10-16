@@ -82,6 +82,37 @@ body {
   accent-color: #1b6ef3;
 }
 
+.upload {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(27, 110, 243, 0.05);
+}
+
+.upload__label {
+  font-weight: 600;
+  color: #1f2533;
+}
+
+.upload input[type='file'] {
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.upload__info {
+  margin: 0;
+  color: #1b3b80;
+  font-weight: 500;
+}
+
+.upload__hint {
+  margin: 0;
+  color: #646b83;
+  font-style: italic;
+}
+
 .status {
   margin: 0;
   padding: 0.75rem 1rem;

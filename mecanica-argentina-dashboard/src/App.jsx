@@ -12,10 +12,21 @@ const integerFormatter = new Intl.NumberFormat('es-AR', {
   maximumFractionDigits: 0
 });
 
-const DATA_SOURCES = {
-  csv: 'Archivo CSV',
-  json: 'Archivo JSON'
+const DATA_FILES = {
+  csv: '/data/Datos-ONIET-2025---seguros-prestaciones.csv',
+  json: '/data/Datos-ONIET-2025---seguros-prestaciones.json'
 };
+
+const PRESET_SOURCES = {
+  csv: { type: 'url', format: 'csv', path: DATA_FILES.csv },
+  json: { type: 'url', format: 'json', path: DATA_FILES.json }
+};
+
+const SOURCE_OPTIONS = [
+  { id: 'csv', label: 'Archivo CSV (ejemplo)' },
+  { id: 'json', label: 'Archivo JSON (ejemplo)' },
+  { id: 'upload', label: 'Archivo local' }
+];
 
 const periodsFromYears = (years) => {
   if (!years.length) return 'Sin datos';
@@ -103,12 +114,66 @@ const buildSummary = (records) => {
 };
 
 function App() {
-  const [source, setSource] = useState('csv');
-  const { records, loading, error } = useServiceData(source);
+  const [selectedSource, setSelectedSource] = useState('csv');
+  const [uploadedSource, setUploadedSource] = useState(null);
+  const [fileError, setFileError] = useState(null);
+
+  const activeSource =
+    selectedSource === 'upload'
+      ? uploadedSource?.source ?? null
+      : PRESET_SOURCES[selectedSource] ?? null;
+
+  const { records, loading, error } = useServiceData(activeSource);
 
   const summary = useMemo(() => buildSummary(records), [records]);
   const companyReport = useMemo(() => buildCompanyReport(records), [records]);
   const regionReport = useMemo(() => buildRegionReport(records), [records]);
+
+  const handleSourceChange = (event) => {
+    const value = event.target.value;
+    setSelectedSource(value);
+    setFileError(null);
+    if (value !== 'upload') {
+      setUploadedSource(null);
+    }
+  };
+
+  const handleFileChange = (event) => {
+    const file = event.target.files?.[0] ?? null;
+    if (!file) {
+      setUploadedSource(null);
+      return;
+    }
+
+    const extension = file.name.split('.').pop()?.toLowerCase();
+    let format = null;
+
+    if (extension === 'csv') {
+      format = 'csv';
+    } else if (extension === 'json') {
+      format = 'json';
+    }
+
+    if (!format) {
+      setUploadedSource(null);
+      setFileError('El archivo debe tener extensión .csv o .json');
+      event.target.value = '';
+      return;
+    }
+
+    setFileError(null);
+    setUploadedSource({
+      name: file.name,
+      source: {
+        type: 'file',
+        format,
+        file
+      }
+    });
+    event.target.value = '';
+  };
+
+  const uploadPending = selectedSource === 'upload' && !uploadedSource;
 
   return (
     <div className="app">
@@ -123,24 +188,43 @@ function App() {
       <section className="card">
         <h2>Fuente de datos</h2>
         <p className="card__lead">
-          Los archivos provienen del período 2023 - 2025 y están disponibles en
-          formatos CSV y JSON.
+          Utilice los archivos de ejemplo o cargue un archivo propio en formato CSV o
+          JSON para generar los reportes.
         </p>
         <div className="data-source">
-          {Object.entries(DATA_SOURCES).map(([key, label]) => (
-            <label key={key}>
+          {SOURCE_OPTIONS.map((option) => (
+            <label key={option.id}>
               <input
                 type="radio"
                 name="data-source"
-                value={key}
-                checked={source === key}
-                onChange={() => setSource(key)}
-                aria-label={`Seleccionar ${label}`}
+                value={option.id}
+                checked={selectedSource === option.id}
+                onChange={handleSourceChange}
+                aria-label={`Seleccionar ${option.label}`}
               />
-              {label}
+              {option.label}
             </label>
           ))}
         </div>
+        {selectedSource === 'upload' ? (
+          <div className="upload">
+            <label className="upload__label" htmlFor="file-input">
+              Seleccione un archivo CSV o JSON con el detalle de servicios.
+            </label>
+            <input
+              id="file-input"
+              type="file"
+              accept=".csv,.json"
+              onChange={handleFileChange}
+            />
+            {uploadedSource?.name ? (
+              <p className="upload__info">Archivo seleccionado: {uploadedSource.name}</p>
+            ) : (
+              <p className="upload__hint">Aún no se cargó ningún archivo.</p>
+            )}
+            {fileError ? <p className="status status--error">{fileError}</p> : null}
+          </div>
+        ) : null}
         {loading ? <p className="status status--loading">Cargando datos…</p> : null}
         {error ? <p className="status status--error">{error}</p> : null}
       </section>
@@ -205,7 +289,11 @@ function App() {
         ]}
         rows={companyReport}
         emptyMessage={
-          loading ? 'Cargando información…' : 'No se encontraron registros para mostrar.'
+          loading
+            ? 'Cargando información…'
+            : uploadPending
+              ? 'Seleccione un archivo para generar el reporte.'
+              : 'No se encontraron registros para mostrar.'
         }
       />
 
@@ -222,7 +310,11 @@ function App() {
         ]}
         rows={regionReport}
         emptyMessage={
-          loading ? 'Cargando información…' : 'No se encontraron registros para mostrar.'
+          loading
+            ? 'Cargando información…'
+            : uploadPending
+              ? 'Seleccione un archivo para generar el reporte.'
+              : 'No se encontraron registros para mostrar.'
         }
       />
     </div>
